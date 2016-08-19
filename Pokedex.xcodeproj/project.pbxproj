@@ -12,6 +12,7 @@
 		50BD54B51D675A09000B93EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50BD54B31D675A09000B93EF /* Main.storyboard */; };
 		50BD54B71D675A09000B93EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50BD54B61D675A09000B93EF /* Assets.xcassets */; };
 		50BD54BA1D675A09000B93EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50BD54B81D675A09000B93EF /* LaunchScreen.storyboard */; };
+		50BD54C21D67606B000B93EF /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 50BD54C11D67606B000B93EF /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		50BD54B61D675A09000B93EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50BD54B91D675A09000B93EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50BD54BB1D675A09000B93EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50BD54C11D67606B000B93EF /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +59,20 @@
 				50BD54AF1D675A09000B93EF /* AppDelegate.swift */,
 				50BD54B11D675A09000B93EF /* ViewController.swift */,
 				50BD54B31D675A09000B93EF /* Main.storyboard */,
-				50BD54B61D675A09000B93EF /* Assets.xcassets */,
 				50BD54B81D675A09000B93EF /* LaunchScreen.storyboard */,
 				50BD54BB1D675A09000B93EF /* Info.plist */,
+				50BD54C31D67611C000B93EF /* assets */,
 			);
 			path = Pokedex;
+			sourceTree = "<group>";
+		};
+		50BD54C31D67611C000B93EF /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				50BD54C11D67606B000B93EF /* pokemon.csv */,
+				50BD54B61D675A09000B93EF /* Assets.xcassets */,
+			);
+			name = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +137,7 @@
 			files = (
 				50BD54BA1D675A09000B93EF /* LaunchScreen.storyboard in Resources */,
 				50BD54B71D675A09000B93EF /* Assets.xcassets in Resources */,
+				50BD54C21D67606B000B93EF /* pokemon.csv in Resources */,
 				50BD54B51D675A09000B93EF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
